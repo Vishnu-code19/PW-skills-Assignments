@@ -1,0 +1,98 @@
+1. List out the features of HTML5.
+Ans: 
+Better Media Integration:
+HTML5 allows you to put audio and video directly on web pages without needing extra tools like Flash.
+
+Canvas for Graphics:
+With HTML5, you can create and change interactive graphics right on a webpage using the <canvas> element.
+
+Find Your Location:
+HTML5 helps web apps find your location, which can be handy for services that depend on where you are.
+
+Local Storage:
+HTML5 lets websites store some data on your device. This makes things faster and means less back-and-forth with the server.
+
+New Page Elements:
+HTML5 introduced new tags like <header>, <footer>, <nav>, and <article> to help organize web content more logically.
+
+Form Improvements:
+HTML5 improved forms by adding new input types like date and color, plus useful attributes like "required" and "autofocus."
+
+Accessibility Boost:
+HTML5 is better at making websites accessible, like letting you add descriptions to images and working better with screen readers.
+
+2. What are HTML Entities? List out 5 commonly used HTML entities.
+Ans: HTML entities are special codes that represent reserved characters, symbols, or characters with specific
+meanings in HTML. They are used to display characters that might otherwise be interpreted as HTML code or
+cause rendering issues in web browsers. HTML entities are written using an ampersand (&) followed by a
+specific code or name, and ending with a semicolon (;).
+
+5 Commonly Used HTML Entities:
+&lt; - Represents the less-than symbol <.
+Example: <p>This is an example &lt;em&gt;text&lt;/em&gt;.</p>
+&gt; - Represents the greater-than symbol >.
+Example: <p>For more information, visit our website &gt; <a href="#">here</a>.</p>
+&amp; - Represents the ampersand symbol &.
+Example: <p>For further details, contact us &amp; we'll assist you.</p>
+&quot; - Represents a double quotation mark "
+Example: <p>The title of the book is "The Great Gatsby".</p>
+&copy; - Represents the copyright symbol ©.
+Example: <p>&copy; 2023 ACME Corporation. All rights reserved.</p>
+
+3. Define accessibility in the context of web development? Discuss why it's essential to create accessible
+websites and how it benefits different user groups
+Ans: Accessibility in web development means creating websites in a way that makes them easy to use for people with disabilities.
+It's about making sure everyone, no matter their abilities, can understand, navigate, and interact with online content.
+
+Why is Accessible Web Design Important?
+
+Inclusivity:
+Accessible websites make sure that everyone, including people with disabilities, can use the internet for information and services.
+
+Legal Compliance:
+Some countries have laws that say websites must be accessible. This helps prevent legal problems and ensures fair access for all.
+
+Better User Experience:
+Accessible websites often make the internet easier to use for everyone. They have clear menus and content layouts.
+
+Business Growth:
+When websites are accessible, they can reach a larger audience. This means more people might visit, become loyal users, or even customers.
+
+How Accessibility Helps Different Groups:
+
+Visual Impairments: 
+Accessibility includes things like screen reader support and descriptions for images to help blind and visually impaired users.
+
+Hearing Impairments: 
+Captions and transcripts make audio content understandable for those with hearing impairments.
+
+Motor Disabilities: 
+Making websites navigable by keyboard and having easy-to-click buttons helps people with limited physical abilities.
+
+Cognitive Disabilities: 
+Accessible design simplifies content and layout, making it easier for people with cognitive challenges to understand.
+
+Elderly Users: 
+Accessible websites take into account limitations that come with age, ensuring older users can use them effectively.
+
+Mobile Users: 
+Accessibility also improves the experience for people using websites on mobile devices. It makes the layout simpler and 
+adjusts to different screen sizes.
+
+1. Use Meaningful HTML Elements:
+When you create a web page, use special HTML elements that have names that make sense, like <header> for the top part, 
+<nav> for the menu, <main> for the main content, <article> for articles, and <footer> for the bottom part. 
+This helps people who use assistive technologies, like screen readers, understand what each section is for, 
+making it easier for them to navigate and understand the content.
+
+2. Describe Images with Alt Text:
+Whenever you add pictures to your website, don't forget to include a short and informative description using the "alt" attribute. 
+This description, called alt text, is read aloud by screen readers, helping people who can't see the images understand what they are about. 
+So, make sure your alt text is clear and directly related to the image.
+
+3. Be Mindful with Colors:
+Colors are important for web design, but don't rely on them alone to convey information. For example, if you use colors to show errors,
+also include a clear text explanation of the error. Additionally, make sure there's enough contrast between the text and the background, 
+so people with vision problems can easily read the content.
+
+q5 & q6 in HTML format!!
