@@ -1,0 +1,43 @@
+1. What is SEO and explain the importance of SEO?
+Ans: SEO, Search engine optimization is a procedure you do to your website to make it appear in higher
+     rankings in search engines like google, bing and duckduckgo. SEO is important to increase the traffic
+     of a website hence achieving business goals.
+
+2. Create an HTML document with appropriate <title> and <meta> tags for SEO optimization. Ensure the title
+   is descriptive and the meta description is concise.
+Ans: In the same folder as a html file.
+
+3. What are the Benefits of Using Meta Tags?
+Ans: Following are the Benefits of meta tags:
+SEO: Meta tags, such as the "description" and "keywords" tags, can help improve a webpage's visibility on 
+search engine result pages (SERPs).
+
+Social Media Sharing - Meta tags like the Open Graph Protocol tags allow developers to control how web
+pages are displayed when shared on social media platforms like Facebook, Twitter, and LinkedIn.
+
+Character Encoding and Language - The meta tag specifying the character encoding (e.g.,UTF-8) ensures
+that the browser interprets the text correctly, especially when dealing with special characters or multilingual
+content.
+
+Viewport control - The viewport meta tag is crucial for responsive web design.
+
+HTTP-Equiv tags - Meta tags with http-equiv attribute (e.g., <meta http-equiv="refresh">) enable specific
+HTTP header functionalities, like refreshing or redirecting the page after a certain time.
+
+4. Create an HTML document that properly incorporates semantic elements like <header>, <article>,
+   <section>, or <naC> to improCe SEO and document structure.
+Ans: In the same folder as a html file.
+
+5. Define Favicon and give an illustrative example.
+Ans: A favicon that stands for a favorite icon is a tiny icon included along with a website, which is 
+displayed in places like the browser's address bar, page tabs, and bookmarks menu.
+
+Example: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Favicon -->
+    <link rel="icon" href="--img address--" type="image/x-icon">
+</head>
+<body>
+</body>
