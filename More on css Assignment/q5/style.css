@@ -1,0 +1,20 @@
+.title{
+    font-family: oswald;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+.img{
+    text-align: center;
+}
+.para{
+    width: 700px;
+    font-size: larger;
+    margin: auto;
+    font-family: montserrat;
+}
+p{
+    letter-spacing: 3px;
+}

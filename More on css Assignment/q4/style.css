@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(249, 177, 45, 0.715);
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border:5px solid rgb(205, 57, 49);
+}
+div{
+    text-align: center;
+    margin-top: 200px;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+div{
+    margin: 20px auto;
+    height: 260px;
+    width: 320px;
+    padding: 2px;
+    padding-bottom: 80px;
+    background-color: rgb(248, 209, 13);
+    border-radius: 7%;
+}
+
+p{
+    padding: 5px;
+}
