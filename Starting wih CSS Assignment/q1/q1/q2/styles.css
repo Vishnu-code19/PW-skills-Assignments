@@ -1,0 +1,42 @@
+*{
+    font-family: georgia ;
+}
+
+/** here, I have made use of different bold weight in different
+titles**/
+.lorem3__title--bold100{
+    font-weight: 100;
+} 
+.lorem5__title--bold200{
+    font-weight: 300;
+} 
+.lorem7__title--bold300{
+    font-weight: 500;
+    font-style: oblique;
+} 
+.lorem9__title--bold400{
+    font-weight: 700;
+    text-decoration: dashed;
+} 
+.lorem11__title--bold500{
+    font-weight: 900;
+    text-decoration: dotted;
+} 
+
+/* here I have made use of different font styles and text decoration
+in different paragraphs */
+.lorem3__para--italic{
+    font-style: italic;
+}
+.lorem5__para--oblique{
+    font-style: oblique;
+}
+.lorem7__para--line-through{
+    text-decoration: line-through;
+}
+.lorem9__para--overline{
+    text-decoration:overline ;
+}
+.lorem11__para--underline{
+    text-decoration:underline ;
+}
