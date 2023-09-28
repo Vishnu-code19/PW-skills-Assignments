@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.important{
+    color: yellow !important;
+    border: 1px solid white;
+    
+}
+
+.internal{
+    color: black;
+}
+
+.external{
+    color: black;
+    border: 1px solid white;
+}
+.external{
+    color: red;
+}

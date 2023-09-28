@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Starting with css | Q1 </title>
+        <link rel="stylesheet" href="styles.css"/>
+        <style>
+            .internal{
+                color: aqua;
+                border: 1px solid white;
+            }
+            .inline{
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="important" style="color: black;">   <!--This has the highest priority-->
+            <h1>This is !important</h1>
+            <p>Here we apply css property through !important (color -> yellow) and inline (color -> black)</p>
+            <p>showcasing important > inline</p>
+        </div>
+        <div class="inline" style="color:lightgreen; border: 1px solid white; ">    <!--this have second priority-->
+            <h2>This is inline</h2>
+            <p>Here we apply css property through inline (color -> lightgreen) and internal (color -> black)</p>
+            <p>showcasing that inline > internal</p>
+        </div>
+        <div class="internal">  <!--this have third priority-->
+            <h3>This is internal</h3>
+            <p>Here we apply css property through internal (color -> aqua) and external (color -> black)</p>
+            <p>showcasing that internal > external</p>
+        </div>      
+        <div class="external">  <!--this have least priority-->
+            <h4>This is external</h4>
+            <p>Here we apply css property through external (color -> red) below and external (color -> black) above</p>
+            <p>showcasing that below > above</p>
+        </div> 
+        <h3 style="color: white; text-align: left; font-weight: 200px;">
+            Note: !important is not recommended as it overrides all other 
+            declarations and makes the CSS code more difficult to maintain and debug</h3>
+    </body>
+</html>
