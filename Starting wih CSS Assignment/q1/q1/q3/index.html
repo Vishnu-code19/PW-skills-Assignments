@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with css | Q3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">logo</h1>
+    </header>
+    <main>
+        <fieldset>
+        <legend>Registration Form</legend>
+        <form action="" method="post" >
+            <label for="fullname">Full Name&emsp;&emsp;&emsp;</label>
+            <input type="text" name="fullname" id="fullname" required><br><br>
+            <label for="email">E-Mail&emsp;&emsp;&emsp;&emsp;</label>
+            <input type="email" name="email" id="email" required><br><br>
+            <label for="password">password&emsp;&emsp;&emsp;</label>
+            <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required ><br><br>
+        <label for="cnfpassword">confirm password</label>
+        <input type="password" name="cnfpassword" id="cnfpassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required ><br><br><br>
+        <input id="submit" type="submit" value="submit">
+        </form>
+    </fieldset>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
