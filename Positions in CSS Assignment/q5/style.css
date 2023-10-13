@@ -1,0 +1,28 @@
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    left:100px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+    padding: 10px;
+}
+.a{
+    background-color: red;
+    z-index: 1;
+    opacity: 60%;
+}
+.b{
+    background-color: green;
+    left: 150px;
+    z-index: 0;
+    opacity: 80%;
+}
+.c{
+    background-color: blue;
+    left: 200px;
+    z-index: -1;
+}
