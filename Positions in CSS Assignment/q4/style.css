@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgba(7, 0, 29, 0.967);
+}
+body{
+    background-color: white;
+}
+nav{
+    background-color: rgba(7, 0, 29, 0.967);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    color: white;
+    position: absolute;
+    left: 15px;
+}
+nav li{
+    display: inline;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+button{
+    background-color: transparent;
+    border: 2px solid rgba(160, 160, 7, 0.597);
+    border-radius: 10%;
+    padding: 10px 20px;
+    font-family: Comic Neue, sans serif;
+    color: rgba(160, 160, 7, 0.597);
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+    -webkit-transform: translateY(-1.5px);
+	transform: translateY(-1.5px);
+}
+
+nav ul{
+    float: right;
+    font-family: Comic Neue, sans serif;
+    justify-self: flex-end;
+}
