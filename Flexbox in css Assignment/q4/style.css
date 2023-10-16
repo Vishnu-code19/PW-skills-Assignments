@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    width: 93vw;
+    padding: 2rem 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #F4F2FD;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    width: 16vw;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    min-width: 150px;
+}
+
+h2{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
+p{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem; /* 100% */
+}
+h3{
+    color: #202842;
+    font-family: open sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    line-height: 2.25rem;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+}
+.free-meta, .pro-meta, .basic-meta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+ul{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+}
+li{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+    display: inline-flex;
+    padding: 0.5rem 0.5rem 0.25rem 0.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+li img{
+    width: 1.375rem;
+    height: 1.375rem;
+}
+ .free-subscribe button, .pro-subscribe button, .basic-subscribe button{
+    display: flex;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 3.125rem;
+    background: #202842;
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%;
+    border-color: transparent;
+}
+
+#basic-container{
+    background-color:#202842;
+}
+#basic-container *{
+    color : #FFF;
+}
+#basic-container button{
+    background-color: #FFF;
+    color: #202842;
+    font-weight: 500;
+}
+ button:hover{
+    cursor: pointer;
+ }
