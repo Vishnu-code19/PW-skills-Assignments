@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    list-style-type:none;
+    font-family: inter;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+ /* styling left section */
+.left-section{
+    width: 60vw;
+    display: flex;
+    padding: 3% 8% 1% 6% ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* styling left section1 */
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logos img{
+    padding: 4px;
+    height: 85%;
+}
+.access-options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.access-options ul{
+    display: flex;
+    gap:1.2rem;
+    font-size: 15px;
+    justify-content: end;
+}
+.access-options ul button{
+    padding: 0.63369rem 0.9505rem;
+    border:1px solid lightgray;
+    background-color: transparent;
+    border-radius: 0.31681rem;
+    cursor: pointer;
+}
+.access-options ul button:focus{
+    background-color: orange;
+    color: white;
+}
+
+/* styling left section2 */
+.title h1{
+    font-size: 3.04169rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+.title p span{
+    font-size: 2.02775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+    padding-left: 0;
+}
+.text-green{
+    color: green;
+}
+.text-orange{
+    color:orange;
+}
+.text-blue{
+    color:darkslateblue
+}
+
+/* styling left section3 */
+.feature-nav{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+}
+.feature-nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.feature-nav ul li button{
+    display: flex;
+    padding: 0.3rem 1.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    border: 0.2px solid rgba(51, 51, 51, 0.50);
+    cursor: pointer;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feature-nav ul li:first-of-type button{
+    background-color:#213D77;
+    color: #fff;
+}
+
+/* styling left section4 */
+.select-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 3%;
+    gap: 1.2rem;
+}
+.select-details p{
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    color: #333333;
+    white-space: nowrap;
+}
+.select-details h3{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4% 0;
+    white-space: nowrap;
+}
+.from-to, .preferences{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 12% 2% 4%; 
+    align-items: center;
+    border: 1px solid rgba(51, 51, 51, 0.10) ;
+    border-radius: 0.7rem;
+    align-items: center;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.preferences div, .from-to div{
+    cursor: pointer;
+}
+.from-to .icon-aligner{
+    display: flex;
+    align-items: center;
+}
+.preferences .icon-aligner{
+    display: flex;
+    align-items: start;
+}
+
+/* styling section 5 */
+    .search-button{
+        padding:5% 5% 10% 5%;
+    }
+    .search-button{
+        display: flex;
+        justify-content: center;
+    }
+    .search-button button{
+        width: 30rem;
+        height: 4rem;
+        border-radius: 0.63369rem;
+        background-color: #01BB0A;
+        color: white;
+        font-family: Inter;
+        font-size: 1.58419rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        align-items: center;
+        cursor: pointer;
+    }
+/* styling right section */
+.right-section img{
+    height: 96vh;
+    width: 40vw;
+}

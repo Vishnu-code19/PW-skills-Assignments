@@ -1,0 +1,7 @@
+Q1. Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When
+would you chose to use one over the other?
+Ans: Flexbox is good for one-dimensional layouts, like rows or columns of items.
+Grid is good for two-dimensional layouts, like tables or magazine covers.
+
+I would choose flexbox when I need to align items in one axis like navbar.
+I would choose grid over flexbox when there's a need complex 2D layouts like gallery.
