@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid in CSS Assignment | Q5</title>
+    <style>
+        .container{
+            width: 80%;
+            margin: 50px;
+            padding: 20px;
+            display: grid;
+            grid-template: 50px 50px/1fr 1fr;
+            gap: 20px;
+            justify-items:end;
+            background-color: antiquewhite;
+            border: 2px double black;
+        }
+        .container div{
+            border: 2px double black;
+            background-color: #ccc;
+            width: 50px;
+            padding: 10px;
+        }
+        .B, .C{
+            justify-self: start;
+        }
+        h3{
+            margin: 50px;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="A">A</div>
+        <div class="B">B</div>
+        <div class="C">C</div>
+        <div class="D">D</div>
+    </div>
+    <br><br><br>
+    <h3>Here box A and D are obeying its parent's css property justify-items that is set to "end". Hence, they positioned themselves at the end of their corresponding grid. </h3>
+    <h3>But B and C on the other hand are ovverriding that justify-items property because of the justify-self property of their own that is set to "start". Hence, they positioned themselves at the start of their correspodning grid. </h3>
+</body>
+</html>

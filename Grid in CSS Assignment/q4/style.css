@@ -1,0 +1,25 @@
+.container{
+    margin: 200px;
+    display: grid;
+    grid-template: 150px 150px/repeat(6, 1fr);
+    gap: 20px;
+}
+.box{
+    border-radius: 7%;
+    padding: 50px;
+    font-size: xx-large;
+    font-weight: 400;
+}
+.container div:nth-of-type(odd){
+    background-color:gray;
+    color: white;
+}
+.container div:nth-of-type(even){
+    background-color:#ccc;
+}
+.box1{
+    grid-area: 2/1;
+}
+.box2{
+    grid-area: 2/2;
+}
