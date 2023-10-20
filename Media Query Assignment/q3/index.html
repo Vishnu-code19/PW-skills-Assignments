@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Assignment | Q3</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        padding: 20px 0;
+        background-color: black;
+        color: white;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    @media screen and (max-width: 768px) {
+        .container{
+            flex-direction: column;
+            background-color: gray;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div>Home</div>
+        <div>About</div>
+        <div>Services</div>
+        <div>Portfolio</div>
+        <div>Contact</div>
+    </div>
+</body>
+</html>
