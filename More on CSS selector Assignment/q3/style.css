@@ -1,0 +1,8 @@
+h1::before{
+    content: "Amar ";
+    color: orange;
+}
+h1::after{
+    content: " Antony ";
+    color: green;
+}
