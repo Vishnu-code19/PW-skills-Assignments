@@ -8,6 +8,7 @@
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
     font-size: medium;
+
 }
 body{
     padding: 3px;
@@ -91,12 +92,13 @@ body{
 h2{
     padding-bottom: 10px;
     font-weight: 700;
+    text-transform: uppercase; 
 }
 h3{
     font-size: small;
     font-weight: 600;
     text-decoration:underline;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 h4{
     font-size: 13px;
@@ -111,17 +113,43 @@ h4{
     grid-row: 2/3;
     display: flex;
     flex-direction: column;
-    /* grid-template-rows: 2fr 3fr 3fr 1fr; */
+    align-items: start;
     background-image: linear-gradient(
         rgba(17, 168, 249, 0.532),
         rgba(29, 126, 186, 0.932)
     );
     padding-left: 7px;
+    gap: 30px;
+    padding-top: 15px;
 }
-
-
-
-
+.left-section div h2{
+    text-align: center;
+}
+.left-section .contacts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.skills-hobbies ul{
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    list-style-type: '◈';
+}
+.skills-hobbies ul p{
+    padding-right: 100px;
+    padding-top: 10px;
+} 
+.skills-hobbies ul p:not(:first-of-type){
+    padding-right: 100px;
+    padding-top: 10px;
+} 
+.skills-hobbies h2:not(:first-of-type){
+    padding-top: 20px;
+}
 
 
 .right-section{
