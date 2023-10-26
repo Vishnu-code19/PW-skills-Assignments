@@ -4,10 +4,9 @@
     box-sizing: border-box;
     border: none;
     color: black;
-    /* text-decoration: none; */
     font-family: Josefin Sans, sans-serif;
     font-weight: 400;
-    font-size: medium;
+    list-style-type:none ;
 
 }
 body{
@@ -17,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     overflow: scroll;
+    background-color: rgb(69, 68, 68);
 }
 /* main section starts here! */
 .main{
@@ -27,6 +27,7 @@ body{
     display: grid;
     grid-template-columns: 4fr 6fr;
     grid-template-rows: 1fr 9fr ;
+    background-color: #fff;
 }
 
 /* header */
@@ -91,18 +92,17 @@ body{
 /* Mid section */
 h2{
     padding-bottom: 10px;
+    font-size: small;
     font-weight: 700;
     text-transform: uppercase; 
 }
 h3{
-    font-size: small;
+    font-size: 14px;
     font-weight: 600;
     text-decoration:underline;
-    /* padding-bottom: 5px; */
 }
 h4{
-    font-size: 13px;
-    padding-top: 5px;
+    font-size: 10px;
 }
 
 .sub-section{
@@ -123,7 +123,7 @@ h4{
     padding-top: 15px;
 }
 .left-section div h2{
-    text-align: center;
+    padding-left: 20px;
 }
 .left-section .contacts{
     display: flex;
@@ -137,10 +137,13 @@ h4{
     display: flex;
     flex-wrap: wrap;
     column-gap: 15px;
-    list-style-type: '◈';
+}
+.skills-hobbies ul li{
+    list-style-type: '＊';
 }
 .skills-hobbies ul p{
     padding-right: 100px;
+    font-size: small;
     padding-top: 10px;
 } 
 .skills-hobbies ul p:not(:first-of-type){
@@ -156,6 +159,9 @@ h4{
     grid-column: 2/3;
     grid-row: 2/3;
     padding: 15px;
+}
+#grid-project ul li{
+    list-style-type: '⇒';
 }
 
 #graduation, #hsc, #ssc, #grid-project{
