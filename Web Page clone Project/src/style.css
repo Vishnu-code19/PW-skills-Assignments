@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    list-style-type: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../Assets/background-image.png");
+    background-size: 103vw 85vh;
+    background-repeat: no-repeat;
+    padding: 0 6%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Nav section styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    align-items: center;
+    padding: 0 9vw;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-list li{
+    cursor: pointer;
+}
+@media screen and (max-width:1064px) {
+    .nav-list{
+        padding: 0 0;
+    }
+}
+@media screen and (max-width:800px) {
+    .nav-list, #hero-img{
+        display: none;
+    }
+}
+.search-bar{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(246, 8, 167);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.search-bar img{
+    object-fit: contain;
+}
+
+/* Hero section style */
+.hero-section{
+    width: 25%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 30%;
+}
+.hero-section h1{
+    font-size:300%;
+}
+.hero-section p{
+    color: gray;
+}
+.hero-buttons{
+    display: flex;
+    gap:10px;
+}
+#hero-img{
+    position: relative;
+    left: 35.5%;
+}
+
+.contact{
+    position: absolute;
+    bottom:50px;
+    display: flex;
+    align-items: center;
+}
+.contact img{
+    padding: 5px;
+    cursor: pointer;
+}
+.contact p {
+    font-size: 20px;
+    font-weight: 100;
+}
+.contact > p span{
+    font-size: 23px;
+    padding: 4px;
+    font-weight: 100;
+}
+
+#home-loan-btn, #car-loan-btn{
+    display: flex;
+    background-color: white;
+    border: none;
+    color: black;
+    align-items: center;
+    box-shadow:1px 1px 30px gray;
+    border-radius: 30px;
+    padding: 7px 15px;
+    gap: 15px;
+    position: absolute;
+}
+#home-loan-btn p, #car-loan-btn p{
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+#car-loan-btn{
+    top: 10%;
+    left: 47%;
+}
+#home-loan-btn{
+    top: 20%;
+    right: 9%;
+}
+#home-loan-btn:hover, #car-loan-btn:hover{
+    transform: translateY(-2px);
+}
+button:hover{
+    filter: brightness(80%);
+}
