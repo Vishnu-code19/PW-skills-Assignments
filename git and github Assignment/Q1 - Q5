@@ -1,0 +1,35 @@
+Q1. Explain what version control is and its importance in software development?
+Ans: version control is a system that facilitates us with saving the history of our software development in an efficient manner. Its important because its hard to develop big software on a single system by a single person on a single day. hence, git comes in and facilitates us with contribution and version control to ensure quality software.
+
+Q2. Explain the Git Workflow, including the staging area, working directory, and repository.
+Ans: git workflow includes making changes in a working directory then staging those untracked changes i.e, staging the files we have made changes in and then commiting those changes to the repository
+
+Q3. Explain what .gitignore is and why it’s important in version control.
+Ans: .gitignore is a file used in Git to specify patterns of files and directories that should be ignored and not tracked by version control. It's crucial because it prevents unneeded or sensitive files (like build artifacts, log files, or API keys) from being inadvertently included in commits, which keeps repositories clean and minimizes unnecessary changes, ensuring that only relevant project files are tracked. This helps maintain a focused and efficient version control history.
+
+Q4. Briefly explain what GitHub is and how it facilitates collaboration and version control also name some
+alternatives to GitHub.
+Ans: Github is an internet based service that facilitates us to save our repository in remote location online that is always available to access on the internet. hence, facilitating the collaboration on a single project from people far from each other, remotely.
+Alternatives to github: Gitlab, bitbucket, Bitbucket
+
+Q5. 
+Ans: 
+1. Select an open-source project on GitHub that interests you and aligns with your skills.
+
+2. On the project's GitHub page, click the "Fork" button to create your copy of the repository.
+
+3. In your terminal, use git clone to copy the project to your local machine.
+
+4. Create a Branch: Create a new branch using git checkout -b branch-name for your work.
+
+5. Edit or add code as desired.
+
+6. Use git add to stage changes and git commit to save them.
+
+7. Push your branch to your fork on GitHub using git push.
+
+8. On the project's GitHub page, click "New Pull Request" to propose your changes to the project's maintainers.
+
+9. Collaborate: Discuss, revise, and address feedback in the pull request.
+
+10. Merge: Once approved, the maintainers will merge your changes into the project.
